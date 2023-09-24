@@ -28,9 +28,7 @@
 					"listen": "prerequest",
 					"script": {
 						"exec": [
-							"console.log(pm.environment.get(\"ir_reason\"));",
-							" ",
-							""
+							" "
 						],
 						"type": "text/javascript"
 					}
