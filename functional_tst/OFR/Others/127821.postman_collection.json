@@ -9,9 +9,31 @@
 	"item": [
 		{
 			"name": "127821 - Check Google Response",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://www.google.com",
+					"protocol": "http",
+					"host": [
+						"www",
+						"google",
+						"com"
+					]
+				}
 			},
 			"response": []
 		}
