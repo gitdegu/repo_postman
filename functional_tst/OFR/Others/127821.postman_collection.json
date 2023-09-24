@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "42d8ed46-e23a-4a45-b384-665fda667f91",
+		"name": "127821",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23461356",
+		"_collection_link": "https://cloudy-trinity-527465.postman.co/workspace/int_repo~e4abb848-a755-460e-8cb5-f498ebd990a5/collection/23461356-42d8ed46-e23a-4a45-b384-665fda667f91?action=share&source=collection_link&creator=23461356"
+	},
+	"item": [
+		{
+			"name": "127821 - Check Google Response",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
